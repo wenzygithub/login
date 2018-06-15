@@ -2,7 +2,7 @@
 <html lang="zh">
 <head>
 <meta charset="UTF-8">
-<meta http-equiv="refresh" content="5;url=hello.html"> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>登录</title>
 <link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -41,6 +41,7 @@ $('#login-button').click(function (event) {
 	event.preventDefault();
 	$('form').fadeOut(500);
 	$('.wrapper').addClass('form-success');
+	window.location.href='hello.html';
 });
 </script>
 
