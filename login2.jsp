@@ -14,7 +14,7 @@
 
        Class.forName("com.mysql.jdbc.Driver");
       String url="jdbc:mysql://localhost:3306/news";
-       conn=DriverManager.getConnection(url,"root","123456");
+       conn=DriverManager.getConnection(url,"root","123");
              
        Statement st=conn.createStatement();
         ResultSet rs=st.executeQuery("select * from tb1");
