@@ -14,7 +14,7 @@
 
  	   Class.forName("com.mysql.jdbc.Driver");     
 	   String url="jdbc:mysql://localhost:3306/news";
-     conn=DriverManager.getConnection(url,"root","123456");
+     conn=DriverManager.getConnection(url,"root","123");
        PreparedStatement st=conn.prepareStatement("insert into tb1 values(?,?)");
       st.setString(1,uid);
       st.setString(2,pwd);
